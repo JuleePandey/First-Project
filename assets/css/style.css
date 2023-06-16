@@ -3,7 +3,9 @@
     padding: 0px;
     margin: 0px;
 }
-
+ body{
+    padding: 60px;
+ }
 
 table{
     background-color: rgb(216, 160, 160);
@@ -12,4 +14,9 @@ table{
  form{
     width: 100px;
     height: 200px;
+ }
+ ol{
+    border: 1px solid rgb(10, 8, 8);
+    width: 100px;
+    height: 100px; 
  }
