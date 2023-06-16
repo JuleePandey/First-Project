@@ -4,9 +4,12 @@
     margin: 0px;
 }
 
-.one{
-    background-color: red;
-}
+
 table{
-    background-color: darkgrey;
+    background-color: rgb(216, 160, 160);
+    padding: 10px;
 }
+ form{
+    width: 100px;
+    height: 200px;
+ }
