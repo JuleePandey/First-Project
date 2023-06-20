@@ -1,0 +1,167 @@
+body {
+  background-color: #2e57ae;
+}
+
+.our-mailer {
+  width: 50%;
+  margin: 1rem auto;
+  background-color: white;
+}
+.our-mailer .top-content {
+  padding: 0 2rem 4rem 2rem;
+}
+.our-mailer .top-content .header {
+  border-bottom: 5px solid black;
+}
+.our-mailer .top-content .main {
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+}
+.our-mailer .top-content .main h3 {
+  font-size: 60px;
+}
+.our-mailer .top-content .main h3 span {
+  font-weight: 700;
+}
+.our-mailer .top-content .main p {
+  font-size: 1.5rem;
+  color: #2e57ae;
+}
+.our-mailer .top-content .img-1 {
+  text-align: center;
+}
+.our-mailer .top-content .shop-btn {
+  text-align: center;
+  padding: 2rem 0 4rem 0;
+  border-bottom: 3px dashed black;
+}
+.our-mailer .top-content .shop-btn button {
+  background-color: lightcoral;
+  padding: 12px 40px;
+  color: white;
+  border: none;
+  outline: none;
+}
+.our-mailer .top-content .best-slr {
+  padding-top: 4rem;
+  text-align: center;
+}
+.our-mailer .top-content .card .product-detail h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.our-mailer .top-content .card .product-detail h5 {
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.our-mailer .top-content .card .product-detail p {
+  color: gray;
+  font-size: 1.2rem;
+}
+.our-mailer .top-content .card .product-detail h6 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.our-mailer .top-content .card .product-detail h6 span {
+  font-size: 1rem;
+  color: gray;
+}
+.our-mailer .top-content .card .product-detail button {
+  color: white;
+  background-color: black;
+  padding: 0.5rem 4rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  transition: 0.5s ease-in-out;
+}
+.our-mailer .top-content .card .product-detail button:hover {
+  background-color: white;
+  color: black;
+}
+.our-mailer .mid-content {
+  text-align: center;
+  color: white;
+  background-color: lightcoral;
+  padding: 4rem;
+}
+.our-mailer .mid-content .main-content {
+  border: 1px solid white;
+  padding: 3rem;
+}
+.our-mailer .mid-content .main-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+.our-mailer .mid-content .main-content p {
+  font-size: 1.5rem;
+}
+.our-mailer .mid-content .main-content button {
+  color: lightcoral;
+  background-color: white;
+  border: none;
+  outline: none;
+  padding: 0.8rem 2.3rem;
+  margin-top: 2rem;
+}
+.our-mailer .bottom-content {
+  padding: 3rem 2rem;
+}
+.our-mailer .bottom-content .heading {
+  margin-bottom: 2rem;
+}
+.our-mailer .bottom-content .card .product-detail h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.our-mailer .bottom-content .card .product-detail h5 {
+  font-weight: 300;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.our-mailer .bottom-content .card .product-detail p {
+  color: gray;
+  font-size: 1.2rem;
+}
+.our-mailer .bottom-content .card .product-detail h6 {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.our-mailer .bottom-content .card .product-detail h6 span {
+  font-size: 1rem;
+  color: gray;
+}
+.our-mailer .bottom-content .card .product-detail button {
+  color: white;
+  background-color: black;
+  padding: 0.5rem 4rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  transition: 0.5s ease-in-out;
+}
+.our-mailer .bottom-content .card .product-detail button:hover {
+  background-color: white;
+  color: black;
+}
+.our-mailer .footer-container {
+  text-align: center;
+  border-top: 3px solid black;
+  margin: 0 2.8rem;
+}
+.our-mailer .footer-container h4 {
+  padding: 2rem;
+}
+.our-mailer .footer-container .icons {
+  padding-bottom: 2rem;
+}
+.our-mailer .footer-container .icons a {
+  color: black;
+  padding: 0 0.7rem;
+}
+.our-mailer .footer-container .icons a i {
+  font-size: 2rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 50px;
+}/*# sourceMappingURL=style.css.map */
