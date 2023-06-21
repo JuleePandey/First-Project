@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+
+/* h1, h3,span{
+    background-color: red;
+    
+}
+
+ul> li {
+    color: blue;
+}
+div li{
+    background-color:yellowgreen;
+} */
+
+/* p[class="para-3"]{
+    color: red;
+} */
+
+button{
+    padding: 1rem 2rem ;
+    display: block;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgba(8, 194, 8, 0.856);
+}
+button:active{
+    background-color: rgb(218, 6, 6);
+}
+button:visited{
+    background-color: yellow;
+}
+a:visited{
+    color: brown;
+}
+/* animation property
+1. animation-name
+2. animation-duration
+3. animation-function
+4. animation-delay
+5. animation-iteration-count
+6. animation-direction
+*/
+*{
+ padding: 0;
+ box-sizing: border-box;
+ margin:0 ;
+} 
+/* body{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 10px solid rgb(218, 6, 6);
+} */
+
+
+

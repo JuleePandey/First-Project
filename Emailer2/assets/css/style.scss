@@ -124,21 +124,21 @@ body{
     }
 
     .bottom-content{
-        padding: 3rem 2rem;
+        padding: 2rem 1rem;
         .heading{
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
         }
       
         .card{
             .product-detail{
                 h1{
-                    font-size: 1.4rem;
-                    font-weight: 700;
+                    font-size: 1.2rem;
+                    font-weight: 600;
                 }
                h5{
-                font-weight: 300;
-                margin-top: 1rem ;
-                margin-bottom: 2rem;
+                font-weight: 200;
+                margin-top: 0.8rem ;
+                margin-bottom: 1.5rem;
                }
                p{
                 color:gray;
@@ -173,19 +173,19 @@ body{
     .footer-container{
         text-align: center;
         border-top: 3px solid black;
-        margin: 0 2.8rem;
+        margin: 0 2.0rem;
         h4{
            padding: 2rem;
         }
         .icons{
-            padding-bottom: 2rem;
+            padding-bottom: 1.6rem;
             a{
                 color: black;
-                padding: 0 0.7rem;
+                padding: 0 0.5rem;
               
                i{
-                font-size: 2rem;
-                padding: 1rem;
+                font-size: 1.5rem;
+                padding: 0.5rem;
                 border: 1px solid black;
                 border-radius: 50px
                }
