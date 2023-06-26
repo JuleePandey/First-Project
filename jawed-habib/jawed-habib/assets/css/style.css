@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.header {
+  padding: 1rem;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  height: 100%;
+}
+.header ul li {
+  padding-left: 2rem;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.header ul li .header-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #C80406;
+  padding: 0.3rem 2rem;
+}
+.header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.top-section {
+  background-image: url(../images/jh-bg2.png);
+  height: 45rem;
+}
+.top-section .top-section-content {
+  padding-top: 8rem;
+}
+.top-section .top-section-content h4 {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  font-weight: 500;
+}
+.top-section .top-section-content h2 {
+  color: white;
+  font-size: 61px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  line-height: 61px;
+}
+.top-section .top-section-content h2 span {
+  color: #C80406;
+}
+.top-section .top-section-content h5 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: white;
+}
+.top-section .top-section-content button {
+  margin-top: 2rem;
+  background-color: #C80406;
+  padding: 0.4rem 3rem;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.franchise-section {
+  background-image: url(../images/bg-lines.png);
+}
+.franchise-section h2 {
+  font-size: 2.75rem;
+  font-family: "Playfair Display", serif;
+  color: #C80406;
+  font-weight: 600;
+  margin-bottom: 3.5rem;
+}
+.franchise-section .franchise-form {
+  padding: 0 4rem;
+}
+.franchise-section .franchise-form form label {
+  margin-bottom: 0.7rem;
+}
+.franchise-section .franchise-form form input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.franchise-section .franchise-form form button {
+  border: none;
+  color: white;
+  background-color: #C80406;
+  padding: 0.4rem 4rem;
+}
+.franchise-section .franchise-form form .f-space h6 {
+  margin-bottom: 1rem;
+}
+.franchise-section .franchise-form form .f-space .space-area {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.franchise-section .franchise-form form .f-space .space-area p {
+  border: 1px solid black;
+  padding: 0.5rem 2rem;
+  margin: 0;
+}
+.franchise-section .franchise-heading h1 {
+  font-family: "Playfair Display", serif;
+  color: #EEEEEE;
+  font-size: 4.375rem;
+  font-weight: 600;
+  line-height: 6.563rem;
+}
+
+.jawed__impact {
+  background-color: black;
+}
+.jawed__impact .heading {
+  margin-bottom: 5rem;
+}
+.jawed__impact .heading h2 {
+  font-family: "Playfair Display", serif;
+  color: #585858;
+  font-size: 2.75rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.jawed__impact .salon-details {
+  text-align: center;
+}
+.jawed__impact .salon-details h3 {
+  margin: 0;
+  color: white;
+  font-weight: 600;
+  font-size: 4.689rem;
+}
+.jawed__impact .salon-details p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.jawed__impact .heading-2 h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 4.2rem;
+  color: #585858;
+  margin-top: 2rem;
+  opacity: 40%;
+}
+
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+.slider-card {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgba(0, 0, 0, 0.73);
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.slider-card .slider-card img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 0.7;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 0.7;
+  font-size: 30px !important;
+  z-index: 1;
+}
+
+.owl-dots {
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.owl-dots .owl-dot.active {
+  background: #f44336 !important;
+}
+
+.small-images {
+  margin-top: -5rem;
+}
+
+.franchise__benefits {
+  background-color: black;
+}
+.franchise__benefits .benefit-content {
+  padding-top: 3rem;
+}
+.franchise__benefits .benefit-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.75rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 1rem;
+}
+.franchise__benefits .benefit-content p {
+  color: white;
+}
+
+.tabs-section {
+  padding: 3rem 0;
+}
+.tabs-section .tab-heading h1 {
+  font-size: 2.75rem;
+  font-weight: 600;
+  line-height: 3rem;
+  font-family: "Playfair Display", serif;
+}
+.tabs-section .tab-heading h1 span {
+  font-size: 5rem;
+  color: #EEEEEE;
+}/*# sourceMappingURL=style.css.map */

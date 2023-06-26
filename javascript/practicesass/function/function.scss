@@ -1,0 +1,59 @@
+$container-width:1000;
+
+
+@function half($width){
+  @return $width/2 + px;
+}
+@function half($width){
+    @return $width/3 + px;
+  }
+  @function half($width){
+    @return $width/4 + px;
+  }
+
+.half-width{
+     width: half($container-width);
+}
+.one-third-width{
+    width: one-third($container-width);
+}
+.one-fourth-width{
+    width:one-fourth($container-width);
+
+}
+
+
+  // number function
+.test{
+    margin: abs(-10px); // it will return only absolute value
+    margin: ceil(4.5); // it will provide only next bigger value will return
+    margin: floor(3.9); // it will provide lower value
+    margin: round(3.5);//it is combination of ceil and round (3.4=>3),more than 3.5 or 3.5 will give 4
+    margin: max(1px, 4px,5px);// will provide max value
+    margin: min(2px,4px,6px);// will provide min value
+    margin: percentage(100px/200px); // it will provide only % value
+    margin: comparable( 2px, 5px ); // will provide boolena value but unit should be same
+    margin: comparable(2px,1em); // its different value so it will show false
+    margin: comparable(2cm, 1mm );// its same unit 
+    margin: random();//it will provide random value bcoz no value will not avaliable if we
+    margin: random(10);// now it will provide any random value b/t 1 to 10
+    margin: unit(100px);// it will provide unit of enter data
+
+}
+//string function
+.demo{
+  font-family: quote(Arial); // it will help to provide value with ""
+  font-family: unquote("arial");// it provide value without "".
+  font-family: to-lower-case(arial); // it will provide value in lower case
+  font-family: to-upper-case(arial);// it will provide value in upper case
+  font-family: str-length("hgkjhsdgkjh hksjh");//it will provide the string value no of character
+  font-family: str-index("alwaysgood day", "day");// first will be value and second value will provide no of index which we required to find
+  font-family: str-insert("helvetica neue", "neue",10 );// (place where add, value which will add,index of that value which should be add)
+  font-family: str-slice("sachikapandey",3,-8); //(string, start index, end index )
+  font-family: unique-id();// it will provide unique id which is of 9 character
+}
+
+//color functions
+
+
+
