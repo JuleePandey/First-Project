@@ -1,0 +1,52 @@
+.half-width {
+  width: 250px;
+}
+
+.one-third-width {
+  width: one-third(1000);
+}
+
+.one-fourth-width {
+  width: one-fourth(1000);
+}
+
+.test {
+  margin: 10px;
+  margin: 5;
+  margin: 3;
+  margin: 4;
+  margin: 5px;
+  margin: 2px;
+  margin: 50%;
+  margin: true;
+  margin: false;
+  margin: true;
+  margin: 0.8276316002;
+  margin: 6;
+  margin: "px";
+}
+
+.demo {
+  font-family: "Arial";
+  font-family: arial;
+  font-family: arial;
+  font-family: ARIAL;
+  font-family: 17;
+  font-family: 12;
+  font-family: "helveticaneue neue";
+  font-family: "chik";
+  font-family: ur0ky79;
+}
+
+.abc .xyz p {
+  width: 10px;
+}
+
+.test {
+  font-weight: "regular", "medium", "bold";
+  font-weight: 700;
+  font-weight: 400, 500, 700;
+  font-weight: "regular", "medium", "bold", "lightest", "light";
+  font-weight: 500, 700;
+  font-weight: true;
+}/*# sourceMappingURL=function.css.map */
