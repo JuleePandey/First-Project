@@ -1,0 +1,115 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+h3{
+    text-decoration: none;
+}
+.picture{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content{
+    width: 15%;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: translate(0px, -8px);
+    transition: .2s;
+}
+.content:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.1);
+}
+img{
+    min-height: 10rem;
+    max-width: 11rem;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+    transition: .2s ease-in-out;
+}
+
+/* img:hover{
+    transform: scale(1.2);
+} */
+
+p{
+    text-align: center;
+    color: rgb(56, 55, 55);
+    padding: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+}
+
+li{
+    padding: 5px;
+    color:rgb(255, 169, 10);
+}
+
+li:hover{
+    color: rgb(236, 130, 31);
+}
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    /* margin: 5px; */
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: .2s ease-in-out;  
+}
+
+button:hover{
+    background-color: rgb(156, 69, 69);
+}
+.buy-1{
+    background-color: darkcyan;
+}
+.buy-2{
+    background-color: yellowgreen;
+}
+.buy-3{
+    background-color: rgb(9, 172, 212);
+}
+.buy-4{
+    background-color: darkred;
+}
+
+
+
+
